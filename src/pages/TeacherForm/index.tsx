@@ -13,6 +13,7 @@ import api from '../../services/api';
 import './styles.css';
 
 function TeacherForm() {
+  
   const history = useHistory();
 
   const [name, setName] = useState('');
